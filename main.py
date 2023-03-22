@@ -1,5 +1,5 @@
 
-# Aparna Nimmagadda
+# Aparna Sai Nimmagadda
 def encoder(x):
     encoder = ""
     for y in x:
