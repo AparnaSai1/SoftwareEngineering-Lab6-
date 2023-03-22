@@ -32,10 +32,9 @@ if __name__ == "__main__":
         option = int(input("Please enter an option: "))
         if option == 1:
             password = input("Please enter your password to encode: ")
-            print(encoder(password))
+            encoder(password)
             print("Your password has been encoded and stored!")
         if option == 2:
-            password = input("Please enter your password to decode: ")
             # The encoded password is 45678888, and the original password is 12345555.
             print("The encoded password is", encoder(password), "and the original password is", decode_str(encoder(password)))
         if option == 3:
