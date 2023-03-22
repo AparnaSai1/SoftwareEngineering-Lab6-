@@ -3,11 +3,9 @@
 def encoder(x):
     encoder = ""
     for y in x:
-<<<<<<< Updated upstream
         encoder = encoder + str(((int(y)+ 3) % 10)) # takes each digit and moves it 3 places
-=======
+
         encoder = encoder + str(((int(y) + 3) % 10)) # takes each digit and moves it 3 places
->>>>>>> Stashed changes
     return encoder
 
 def decode_str(s):
